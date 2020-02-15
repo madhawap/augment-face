@@ -7,30 +7,30 @@
     <title>Dog-Face</title>
     
     <!-- INCLUDE JEELIZ FACEFILTER SCRIPT -->
-    <script src="./dist/jeelizFaceFilter.js"></script>
+    <script src="dist/jeelizFaceFilter.js"></script>
 
     <!-- INCLUDE THREE.JS -->
-    <script src="./libs/threejs/v97/three.js"></script>
+    <script src="libs/threejs/v97/three.js"></script>
 
      <!-- INCLUDE FLEXMATERIAL (CUSTOM DEV) -->
-    <script src="./libs/threejs/customMaterials/FlexMaterial/ThreeFlexMaterial.js"></script>
+    <script src="libs/threejs/customMaterials/FlexMaterial/ThreeFlexMaterial.js"></script>
 
     <!-- INCLUDE TWEEN.JS -->
-    <script src='./libs/tween/v16_3_5/Tween.min.js'></script>
+    <script src="libs/tween/v16_3_5/Tween.min.js"></script>
 
     <!-- INCLUDE JEELIZRESIZER -->
-    <script src="./helpers/JeelizResizer.js"></script>
+    <script src="helpers/JeelizResizer.js"></script>
 
     <!-- INCLUDE JEELIZTHREEJSHELPER -->
-    <script src="./helpers/JeelizThreejsHelper.js"></script>
+    <script src="helpers/JeelizThreejsHelper.js"></script>
 
     <!-- INCLUDE ADDDRAGEVENTLISTENER.JS -->
-    <script src='./helpers/addDragEventListener.js'></script>
+    <script src="helpers/addDragEventListener.js"></script>
 
     <!-- INCLUDE DEMO SCRIPT -->
-    <script src="./demo.js"></script>
+    <script src="demo.js"></script>
 
-    <link rel="stylesheet" href="./appearance/style.css" type="text/css" />
+    <link rel="stylesheet" href="appearance/style.css" type="text/css" />
 
     <style>
       .canvasContainer {
@@ -40,7 +40,7 @@
       }
       #jeeFaceFilterCanvas {
         z-index: 0;
-        max-height: 100%;
+        max-height: 50%;
         left: auto;
 /*         margin-top: 10%; */
         top: auto;
@@ -70,7 +70,7 @@
   
   <body onload="main()" style='color: white'>
     <div class="canvasContainer">
-      <canvas width="800" height="600" id='jeeFaceFilterCanvas'></canvas>
+      <canvas width="600" height="600" id='jeeFaceFilterCanvas'></canvas>
       <div id='filter'></div>      
     </div>
   </body>
